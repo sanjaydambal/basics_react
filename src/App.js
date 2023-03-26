@@ -1,13 +1,16 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import EventBind from './Components/EventBind';
+// import EventBind from './Components/EventBind';
+// import VinMessage from './Components/VinMessage';
 // import ClassClick from './Components/ClassClick';
 // import FunctionClick from './Components/FunctionClick';
 // import Greet from './Components/Greet';
 // import Welcome from './Components/Welcome';
 //  import Message from './Components/Message';
 // import Counter from './Components/Counter';
+import ParentComp from './Components/ParentComp';
+
 
 function App() {
   return (
@@ -21,7 +24,10 @@ function App() {
       {/* <Counter/> */}
       {/* <FunctionClick/> */}
       {/* <ClassClick/> */}
-      <EventBind/>
+      {/* <EventBind/> */}
+      {/* <VinMessage/> */}
+      <ParentComp/>
+      
     </div>
   );
 }
