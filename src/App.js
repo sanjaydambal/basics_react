@@ -1,6 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import UserlLog from './Components/UserlLog';
 // import EventBind from './Components/EventBind';
 // import VinMessage from './Components/VinMessage';
 // import ClassClick from './Components/ClassClick';
@@ -9,7 +10,7 @@ import './App.css';
 // import Welcome from './Components/Welcome';
 //  import Message from './Components/Message';
 // import Counter from './Components/Counter';
-import ParentComp from './Components/ParentComp';
+// import ParentComp from './Components/ParentComp';
 
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
       {/* <ClassClick/> */}
       {/* <EventBind/> */}
       {/* <VinMessage/> */}
-      <ParentComp/>
+      {/* <ParentComp/> */}
+      <UserlLog/>
       
     </div>
   );
