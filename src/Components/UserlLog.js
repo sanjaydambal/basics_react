@@ -1,18 +1,22 @@
 import React, { Component } from 'react'
 
 class UserlLog extends Component {
-    constructor(props) {
-      super(props)
-    
-      this.state = {
-         isLoggedIn:false
-      }
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      isLoggedIn: true
     }
-  render() {
-    return (
-      this.state.isLoggedIn ?
-      <div>Welcome Lakshmikant</div>
-: <div>Welcome Guest</div>    )
+  }
+  render()
+  {
+    return this.state.isLoggedIn && <div>Welcome Lakshmikant</div> 
+  }
+  //  {
+  //   return (
+  //     this.state.isLoggedIn ?
+  //       <div>Welcome Lakshmikant</div>
+  //       : <div>Welcome Guest</div>)
 
     // let message;
     // if(this.state.isLoggedIn){
@@ -28,8 +32,8 @@ class UserlLog extends Component {
     // else{
     //     return<div> Hi Guest</div>
     // }
-     
+
   }
-}
+// }
 
 export default UserlLog

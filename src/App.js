@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import UserlLog from './Components/UserlLog';
+// import UserlLog from './Components/UserlLog';
+import NameList from './Components/NameList';
 // import EventBind from './Components/EventBind';
 // import VinMessage from './Components/VinMessage';
 // import ClassClick from './Components/ClassClick';
@@ -28,7 +29,8 @@ function App() {
       {/* <EventBind/> */}
       {/* <VinMessage/> */}
       {/* <ParentComp/> */}
-      <UserlLog/>
+      {/* <UserlLog/> */}
+      <NameList/>
       
     </div>
   );
