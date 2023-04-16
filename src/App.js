@@ -3,7 +3,8 @@ import React from 'react';
 import './App.css';
 // import UserlLog from './Components/UserlLog';
 // import NameList from './Components/NameList';
-import Form from './Components/Form';
+// import Form from './Components/Form';
+import LifecycleA from './Components/LifecycleA';
 // import EventBind from './Components/EventBind';
 // import VinMessage from './Components/VinMessage';
 // import ClassClick from './Components/ClassClick';
@@ -32,8 +33,8 @@ function App() {
       {/* <ParentComp/> */}
       {/* <UserlLog/> */}
       {/* <NameList/> */}
-      <Form/>
-      
+      {/* <Form/> */}
+      <LifecycleA/>
     </div>
   );
 }
