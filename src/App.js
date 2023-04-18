@@ -1,7 +1,11 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import PortalDemo from './Components/PortalDemo';
+// import PortalDemo from './Components/PortalDemo';
+// import Hero from './Components/Hero';
+// import ErrorBoundary from './Components/ErrorBoundary';
+import ClickCounter from './Components/ClickCounter';
+import HoverCounter from './Components/HoverCounter';
 // import FocusInput from './Components/FocusInput';
 // import FRParentInput from './Components/FRParentInput';
 // import UserlLog from './Components/UserlLog';
@@ -46,7 +50,18 @@ function App() {
       {/* <Refs/> */}
       {/* <FocusInput/> */}
       {/* <FRParentInput/> */}
-      <PortalDemo/>
+      {/* <PortalDemo/> */}
+      {/* <ErrorBoundary>
+      <Hero heroname={"SpiderMan"}/>
+      </ErrorBoundary>
+      <ErrorBoundary>
+      <Hero heroname={"Iron-Man"}/>
+      </ErrorBoundary>
+      <ErrorBoundary>
+      <Hero heroname={"Thanos"}/>
+      </ErrorBoundary> */}
+      <ClickCounter/>
+      <HoverCounter/>
     </div>
   );
 }
