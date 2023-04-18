@@ -6,7 +6,7 @@ export default class Welcome extends Component {
     return (
       <>
       <h1>Hi {name}</h1>
-     
+      <strong> {name} is a solution Architect</strong> 
       </>
     )
   }
