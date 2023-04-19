@@ -8,6 +8,10 @@ import './App.css';
 // import HoverCounter from './Components/HoverCounter';
 import ClickCounterTwo from './Components/ClickCounterTwo';
 import HoverCounterTwo from './Components/HoverCounterTwo';
+// import User from './Components/User';
+import Countertwo from './Components/Countertwo';
+import { UserProvider } from './Components/UserContext';
+import ComponentC from './Components/ComponentC';
 // import FocusInput from './Components/FocusInput';
 // import FRParentInput from './Components/FRParentInput';
 // import UserlLog from './Components/UserlLog';
@@ -64,8 +68,14 @@ function App() {
       </ErrorBoundary> */}
       {/* <ClickCounter name = "sanjay"/>
       <HoverCounter/> */}
-      <ClickCounterTwo/>
+      {/* <ClickCounterTwo/>
       <HoverCounterTwo/>
+      <User name ={(isLoggedIn)=> isLoggedIn ? "sanjay" : "Guest" }/> */}
+      <Countertwo render = {(count,incrementCount) => <ClickCounterTwo count = {count} incrementCount={incrementCount}></ClickCounterTwo>}/>
+      <Countertwo render = {(count,incrementCount) => <HoverCounterTwo count = {count} incrementCount={incrementCount}></HoverCounterTwo>}/>
+    <UserProvider value="Sanjay">
+      <ComponentC/>
+    </UserProvider>
     </div>
   );
 }
