@@ -4,8 +4,10 @@ import './App.css';
 // import PortalDemo from './Components/PortalDemo';
 // import Hero from './Components/Hero';
 // import ErrorBoundary from './Components/ErrorBoundary';
-import ClickCounter from './Components/ClickCounter';
-import HoverCounter from './Components/HoverCounter';
+// import ClickCounter from './Components/ClickCounter';
+// import HoverCounter from './Components/HoverCounter';
+import ClickCounterTwo from './Components/ClickCounterTwo';
+import HoverCounterTwo from './Components/HoverCounterTwo';
 // import FocusInput from './Components/FocusInput';
 // import FRParentInput from './Components/FRParentInput';
 // import UserlLog from './Components/UserlLog';
@@ -60,8 +62,10 @@ function App() {
       <ErrorBoundary>
       <Hero heroname={"Thanos"}/>
       </ErrorBoundary> */}
-      <ClickCounter name = "sanjay"/>
-      <HoverCounter/>
+      {/* <ClickCounter name = "sanjay"/>
+      <HoverCounter/> */}
+      <ClickCounterTwo/>
+      <HoverCounterTwo/>
     </div>
   );
 }
