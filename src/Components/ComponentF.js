@@ -7,7 +7,7 @@ import { UserConsumer } from './UserContext'
       <UserConsumer>
         {
             (username) => {
-                return <div> Hello {username}</div>
+                return <div> Hi {username}</div>
             }
         }
       </UserConsumer>

@@ -12,6 +12,7 @@ import HoverCounterTwo from './Components/HoverCounterTwo';
 import Countertwo from './Components/Countertwo';
 import { UserProvider } from './Components/UserContext';
 import ComponentC from './Components/ComponentC';
+import Parent from './Practice/Parent';
 // import FocusInput from './Components/FocusInput';
 // import FRParentInput from './Components/FRParentInput';
 // import UserlLog from './Components/UserlLog';
@@ -71,11 +72,12 @@ function App() {
       {/* <ClickCounterTwo/>
       <HoverCounterTwo/>
       <User name ={(isLoggedIn)=> isLoggedIn ? "sanjay" : "Guest" }/> */}
-      <Countertwo render = {(count,incrementCount) => <ClickCounterTwo count = {count} incrementCount={incrementCount}></ClickCounterTwo>}/>
+      {/* <Countertwo render = {(count,incrementCount) => <ClickCounterTwo count = {count} incrementCount={incrementCount}></ClickCounterTwo>}/>
       <Countertwo render = {(count,incrementCount) => <HoverCounterTwo count = {count} incrementCount={incrementCount}></HoverCounterTwo>}/>
     <UserProvider value="Sanjay">
       <ComponentC/>
-    </UserProvider>
+    </UserProvider> */}
+    <Parent/>
     </div>
   );
 }
